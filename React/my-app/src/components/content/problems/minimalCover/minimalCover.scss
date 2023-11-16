@@ -1,0 +1,40 @@
+.removedTrivialFDsContainer{
+    margin-top: 1em;
+}
+
+.functionalDependency {
+    border: 1px solid #d1d1d1; /* světlé ohraničení */
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* jemný stín */
+    padding: 8px 16px; /* vnitřní odsazení */
+    margin-bottom: 8px; /* odsazení mezi prvky */
+    background-color: #ccc; /* světlé pozadí */
+    color: #333; /* tmavá barva textu */
+    font-family: 'Arial', sans-serif; /* čisté písmo */
+    cursor: pointer; /* změní kurzor pro interaktivitu */
+
+    &:hover{
+        background-color: #e9e9e9; /* tmavší pozadí při najetí myši */
+
+    }
+  }
+
+  h3{
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px 16px; /* vnitřní odsazení */
+  }
+
+  .line-through {
+    text-decoration: line-through;
+    color: red;
+  }
+
+  .hight-light-red {
+    color: red;
+  }
+  

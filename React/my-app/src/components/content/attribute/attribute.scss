@@ -1,0 +1,52 @@
+@import '../../../styles/global';
+
+
+@include minWidth(992px){
+
+    .attributeContainer{
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        height: calc(100vh - 80px);
+    
+        .title{
+            color: #fff;
+            text-transform: uppercase;
+            padding: 2rem 0rem;
+            display: block;
+        }
+
+        .btn-loadExample{
+            @include button();
+            width: 15%;
+        }
+    
+        .btn-uploadFile{
+            @include button();
+            width: 15%;
+            margin-left: 1em;
+            
+        }
+    
+        .newAttrTextBox{
+            width: 30%;
+            &::placeholder {
+                color: #fff;
+                font-style: italic;
+                opacity: 0.7;
+            }
+        }
+
+        .btn-addNewAttribute{
+            @include button();
+            margin-left: 1em;
+            width: 10%;
+        }
+
+       
+        
+        .btn-nextPageDependency{
+            width: 25%;
+        }
+    }
+}
